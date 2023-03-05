@@ -11,7 +11,7 @@ except EnvironmentError:
             f.write(str(k))
         f.write('\n')
     f.close()
-    f = open('input.txt', 'r+')
+    f = open('input.txt', 'r+', UTF-8)
 
 try:
     k = open('output.txt', 'r+')
