@@ -7,5 +7,5 @@ emails = {'mgu.edu': ['andrei_serov', 'alexander_pushkin', 'elena_belova', 'kiri
 s = []
 for k,v in emails.items():
     for i in v:
-        s.append(i + k)
+        s.append(i + '@' + k)
 print('\n'.join(sorted(s)))
